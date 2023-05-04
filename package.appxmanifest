@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+         xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+         xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+         xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+         IgnorableNamespaces="uap mp rescap">
+
+  <Identity Name="YourAppName.YourPublisherName" Publisher="CN=YourPublisherName" Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>Mars Agent</DisplayName>
+    <PublisherDisplayName>Your Publisher Name</PublisherDisplayName>
+    <Logo>assets\icon.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+</Package>
